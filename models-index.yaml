@@ -1,0 +1,1094 @@
+base_url: https://51as.com/toolbox
+items:
+- id: A01
+  slug: 5w2h
+  zh: 5W2H 问题描述法
+  en: 5W2H
+  category: problem-definition
+  kind: framework
+  definition: 用七个角度把含糊任务写成可分工问题
+- id: A02
+  slug: mece
+  zh: 相互独立、完全穷尽
+  en: MECE
+  category: problem-definition
+  kind: framework
+  definition: 同层分类互不重叠、合起来盖住总体
+- id: A03
+  slug: issue-tree-logic-tree
+  zh: 问题树与逻辑树
+  en: Issue Tree / Logic Tree
+  category: problem-definition
+  kind: framework
+  definition: 把大问题拆到末端可验证的子问题
+- id: A04
+  slug: hypothesis-driven-analysis
+  zh: 假设驱动分析
+  en: Hypothesis-Driven Analysis
+  category: problem-definition
+  kind: framework
+  definition: 先提可推翻的判断，再选最有区分度的验证
+- id: A05
+  slug: first-principles
+  zh: 第一性原理
+  en: First Principles
+  category: problem-definition
+  kind: mental-model
+  definition: 把问题拆到不可再拆的基本事实再往上推
+- id: A06
+  slug: systems-thinking-causal-loop-diagram
+  zh: 系统思考与因果回路
+  en: Systems Thinking / Causal Loop Diagram
+  category: problem-definition
+  kind: mental-model
+  definition: 用反馈、延迟与累积解释反复出现的问题
+- id: A07
+  slug: systems-thinking-iceberg-model
+  zh: 系统思考冰山模型
+  en: Systems Thinking Iceberg Model
+  category: problem-definition
+  kind: framework
+  definition: 从事件往下挖模式、结构与心智假设
+- id: A08
+  slug: cynefin-framework
+  zh: 情境判断框架
+  en: Cynefin Framework
+  category: problem-definition
+  kind: framework
+  definition: 按因果可知性选流程、专家、试探或止损
+- id: A09
+  slug: 5-whys
+  zh: 连续追问原因
+  en: 5 Whys
+  category: problem-definition
+  kind: framework
+  definition: 对有证据的原因连问「为什么」直到可干预
+- id: A10
+  slug: fishbone-ishikawa-diagram
+  zh: 鱼骨图／因果图
+  en: Fishbone / Ishikawa Diagram
+  category: problem-definition
+  kind: framework
+  definition: 按类别展开结果的候选原因再验证
+- id: A11
+  slug: pareto-analysis
+  zh: 帕累托分析
+  en: Pareto Analysis
+  category: problem-definition
+  kind: mental-model
+  definition: 按统一口径排序找贡献最大的少数类
+- id: A12
+  slug: weighted-decision-matrix
+  zh: 加权决策矩阵
+  en: Weighted Decision Matrix
+  category: decision
+  kind: framework
+  definition: 用权重×一致量表给多方案算可比总分
+- id: A13
+  slug: decision-tree-expected-value
+  zh: 决策树与期望值
+  en: Decision Tree / Expected Value
+  category: decision
+  kind: mental-model
+  definition: 画选择与不确定结果，用概率加权倒推
+- id: A14
+  slug: bayesian-updating
+  zh: 贝叶斯更新
+  en: Bayesian Updating
+  category: decision
+  kind: mental-model
+  definition: 用新证据按可能性调整假设可信度
+- id: A15
+  slug: sensitivity-analysis
+  zh: 敏感性分析
+  en: Sensitivity Analysis
+  category: decision
+  kind: framework
+  definition: 改关键输入看结论何时翻转
+- id: A16
+  slug: scenario-planning
+  zh: 情景规划
+  en: Scenario Planning
+  category: decision
+  kind: framework
+  definition: 用多套自洽未来压力测试战略而非单点预测
+- id: A17
+  slug: pre-mortem
+  zh: 事前验尸
+  en: Pre-Mortem
+  category: decision
+  kind: mental-model
+  definition: 先假设方案已失败，再倒推可能原因
+- id: A18
+  slug: inversion
+  zh: 逆向思考
+  en: Inversion
+  category: decision
+  kind: mental-model
+  definition: 先问怎样会失败，再避开那些路径
+- id: A19
+  slug: opportunity-cost
+  zh: 机会成本、边际分析与沉没成本
+  en: Opportunity Cost, Marginal Analysis & Sunk Cost
+  category: decision
+  kind: mental-model
+  definition: 用下一单位收益与所放弃选项比，别被已花成本绑住
+- id: A20
+  slug: ooda-loop
+  zh: 观察—判断—决策—行动循环
+  en: OODA Loop
+  category: decision
+  kind: mental-model
+  definition: 在变化环境中缩短有效学习与适应周期
+- id: A21
+  slug: second-order-effects
+  zh: 二阶效应与后果链
+  en: Second-Order Effects
+  category: decision
+  kind: mental-model
+  definition: 问完「然后呢」，顺着后果链往下想
+- id: A22
+  slug: game-theory-strategic-interaction
+  zh: 博弈论与激励互动
+  en: Game Theory / Strategic Interaction
+  category: decision
+  kind: framework
+  definition: 分析各方激励与最佳回应，再改规则减少冲突
+- id: B01
+  slug: pestel-pestle
+  zh: 宏观环境分析
+  en: PESTEL / PESTLE
+  category: strategy
+  kind: framework
+  definition: 按政经社技环法六类扫外部变量及业务传导
+- id: B02
+  slug: porters-five-forces
+  zh: 波特五力
+  en: Porter’s Five Forces
+  category: strategy
+  kind: framework
+  definition: 从五类力量看行业利润如何被瓜分
+- id: B03
+  slug: swot-tows
+  zh: 优势劣势机会威胁与战略匹配
+  en: SWOT / TOWS
+  category: strategy
+  kind: framework
+  definition: 整理内外部因素并配对成可行动的战略选项
+- id: B04
+  slug: vrio
+  zh: 资源与能力竞争优势分析
+  en: VRIO
+  category: strategy
+  kind: framework
+  definition: 用价值稀缺难仿组织四问检验能力能否变优势
+- id: B05
+  slug: value-chain-analysis
+  zh: 价值链分析
+  en: Value Chain Analysis
+  category: strategy
+  kind: framework
+  definition: 按创造客户价值的活动找成本与差异化来源
+- id: B06
+  slug: bcg-growth-share-matrix
+  zh: 增长—份额矩阵
+  en: BCG Growth–Share Matrix
+  category: strategy
+  kind: framework
+  definition: 用市场增长与相对份额给业务组合分类讨论资金
+- id: B07
+  slug: ge-mckinsey-nine-box-matrix
+  zh: 行业吸引力—竞争实力九宫格
+  en: GE–McKinsey Nine-Box Matrix
+  category: strategy
+  kind: framework
+  definition: 用多指标吸引力与实力九格讨论多业务投入
+- id: B08
+  slug: ansoff-matrix
+  zh: 产品—市场增长矩阵
+  en: Ansoff Matrix
+  category: strategy
+  kind: framework
+  definition: 用四象限区分渗透、新市场、新产品与多元化增长
+- id: B09
+  slug: three-horizons-of-growth
+  zh: 三个增长地平线
+  en: Three Horizons of Growth
+  category: strategy
+  kind: framework
+  definition: 同时管理核心兑现、成型增长与探索机会三条线
+- id: B10
+  slug: strategy-canvas-errc
+  zh: 蓝海战略画布与四步动作
+  en: Strategy Canvas / ERRC
+  category: strategy
+  kind: framework
+  definition: 比较价值曲线并用剔除减少增加创造重画组合
+- id: B11
+  slug: playing-to-win-strategy-choice-cascade
+  zh: 战略选择级联
+  en: Playing to Win / Strategy Choice Cascade
+  category: strategy
+  kind: framework
+  definition: 用五层相互支持的选择把战略落到可检验承诺
+- id: B12
+  slug: business-model-canvas
+  zh: 商业模式画布
+  en: Business Model Canvas
+  category: business-model
+  kind: framework
+  definition: 用九块模块描述创造交付与获取价值的方式
+- id: B13
+  slug: lean-canvas
+  zh: 精益画布
+  en: Lean Canvas
+  category: business-model
+  kind: framework
+  definition: 用问题方案指标与优势快速整理创业假设
+- id: B14
+  slug: value-proposition-canvas
+  zh: 价值主张画布
+  en: Value Proposition Canvas
+  category: business-model
+  kind: framework
+  definition: 对照客户任务痛点收益与产品缓解创造是否匹配
+- id: B15
+  slug: tam-sam-som
+  zh: 市场规模分层估算
+  en: TAM / SAM / SOM
+  category: business-model
+  kind: framework
+  definition: 分层估算总需求、可服务与可争取市场规模
+- id: B16
+  slug: stp
+  zh: 市场细分、目标市场与定位
+  en: STP
+  category: business-model
+  kind: framework
+  definition: 细分有意义群体、选择目标并明确心智位置
+- id: B17
+  slug: 3c-strategic-triangle
+  zh: 战略三角
+  en: 3C / Strategic Triangle
+  category: business-model
+  kind: framework
+  definition: 把客户竞争与自身放在同一判断中找机会
+- id: B18
+  slug: 4p-7p-marketing-mix
+  zh: 营销组合
+  en: 4P / 7P Marketing Mix
+  category: business-model
+  kind: framework
+  definition: 检查产品价格渠道推广及服务要素是否共撑承诺
+- id: B19
+  slug: product-life-cycle
+  zh: 产品生命周期
+  en: Product Life Cycle
+  category: business-model
+  kind: framework
+  definition: 按导入成长成熟衰退观察并调整经营动作
+- id: B20
+  slug: diffusion-of-innovations
+  zh: 创新扩散
+  en: Diffusion of Innovations
+  category: business-model
+  kind: framework
+  definition: 分析创新如何被不同群体采用及障碍何在
+- id: B21
+  slug: network-effects
+  zh: 网络效应分析
+  en: Network Effects
+  category: business-model
+  kind: mental-model
+  definition: 检验参与者增加是否真正提升他人所得价值
+- id: B22
+  slug: business-ecosystem-mapping
+  zh: 商业生态系统地图
+  en: Business Ecosystem Mapping
+  category: business-model
+  kind: framework
+  definition: 以用户价值为中心画出多方活动依赖与瓶颈
+- id: C01
+  slug: jobs-to-be-done-jtbd
+  zh: 待完成任务
+  en: Jobs to Be Done, JTBD
+  category: user-insight
+  kind: mental-model
+  definition: 从用户处境与想取得的进展理解需求，而非功能清单
+- id: C02
+  slug: empathy-map
+  zh: 同理心地图
+  en: Empathy Map
+  category: user-insight
+  kind: framework
+  definition: 用说、想、做、感受四区整理特定情境中的用户证据
+- id: C03
+  slug: persona
+  zh: 用户画像
+  en: Persona
+  category: user-insight
+  kind: framework
+  definition: 把反复出现的目标、行为与限制合成可记忆的典型角色
+- id: C04
+  slug: user-journey-map
+  zh: 用户旅程地图
+  en: User Journey Map
+  category: user-insight
+  kind: framework
+  definition: 沿时间顺序串联行动、想法、感受与触点，定位体验断点
+- id: C05
+  slug: service-blueprint
+  zh: 服务蓝图
+  en: Service Blueprint
+  category: user-insight
+  kind: framework
+  definition: 在用户旅程下展开前台、后台与支持流程，定位交接断点
+- id: C06
+  slug: contextual-inquiry
+  zh: 情境调查
+  en: Contextual Inquiry
+  category: user-insight
+  kind: framework
+  definition: 在真实环境中观察工作并适时核对解释，挖出习以为常的步骤
+- id: C07
+  slug: critical-incident-technique-cit
+  zh: 关键事件访谈法
+  en: Critical Incident Technique, CIT
+  category: user-insight
+  kind: framework
+  definition: 系统收集导致明显成功或失败的具体事件与条件
+- id: C08
+  slug: affinity-diagram
+  zh: 亲和图／KJ 法
+  en: Affinity Diagram
+  category: user-insight
+  kind: framework
+  definition: 把碎片事实按自然关联归组，发现主题而非套旧分类
+- id: C09
+  slug: opportunity-solution-tree-ost
+  zh: 机会解决方案树
+  en: Opportunity Solution Tree, OST
+  category: user-insight
+  kind: framework
+  definition: 把期望结果、用户机会、候选方案与假设测试连成可追溯结构
+- id: C10
+  slug: double-diamond
+  zh: 双钻模型
+  en: Double Diamond
+  category: user-insight
+  kind: framework
+  definition: 用两轮发散—收敛安排问题探索与方案落地
+- id: C11
+  slug: design-thinking
+  zh: 设计思维
+  en: Design Thinking
+  category: user-insight
+  kind: framework
+  definition: 以人的真实需要为起点，通过框问题、原型与测试迭代学习
+- id: C12
+  slug: kano-model
+  zh: Kano 需求分类模型
+  en: Kano Model
+  category: product
+  kind: mental-model
+  definition: 按实现程度与满意度的非线性关系给属性分类
+- id: C13
+  slug: quality-function-deployment-qfd
+  zh: 质量功能展开／质量屋
+  en: Quality Function Deployment, QFD
+  category: product
+  kind: framework
+  definition: 把用户需要映射到技术特性与可验收目标，暴露冲突
+- id: C14
+  slug: reach-impact-confidence-effort
+  zh: RICE 优先级评分
+  en: Reach–Impact–Confidence–Effort
+  category: product
+  kind: framework
+  definition: 用覆盖、影响、信心与工作量给候选项相对排序
+- id: C15
+  slug: impact-confidence-ease
+  zh: ICE 实验优先级评分
+  en: Impact–Confidence–Ease
+  category: product
+  kind: framework
+  definition: 用影响、信心、容易度平均分快速筛下一轮实验
+- id: C16
+  slug: must-should-could-wont
+  zh: MoSCoW 范围优先级
+  en: Must / Should / Could / Won’t
+  category: product
+  kind: framework
+  definition: 在固定期限与容量内把需求分成必须、应该、可以与本轮不做
+- id: C17
+  slug: user-story-mapping
+  zh: 用户故事地图
+  en: User Story Mapping
+  category: product
+  kind: framework
+  definition: 按用户活动展开任务与故事，用横向切片规划可走通版本
+- id: C18
+  slug: lean-startup-build-measure-learn
+  zh: 精益创业与 MVP 验证循环
+  en: Lean Startup / Build–Measure–Learn
+  category: product
+  kind: mental-model
+  definition: 用构建—测量—学习循环尽早检验会改变方向的假设
+- id: C19
+  slug: assumptions-mapping
+  zh: 假设映射
+  en: Assumptions Mapping
+  category: product
+  kind: framework
+  definition: 显式写出方案成立前提，按重要性与证据弱强排序先测风险
+- id: C20
+  slug: usability-testing
+  zh: 可用性测试
+  en: Usability Testing
+  category: product
+  kind: framework
+  definition: 让目标用户在接近真实条件下执行任务，用行为发现可用性问题
+- id: C21
+  slug: nielsens-10-usability-heuristics
+  zh: 尼尔森十大可用性启发式
+  en: Nielsen’s 10 Usability Heuristics
+  category: product
+  kind: framework
+  definition: 用分组检查视角走查界面，尽早标出可用性风险
+- id: C22
+  slug: happiness-engagement-adoption-retention-task-success
+  zh: HEART 用户体验度量框架
+  en: Happiness–Engagement–Adoption–Retention–Task Success
+  category: product
+  kind: framework
+  definition: 用满意、参与、采用、留存与任务成功视角把体验目标落成指标
+- id: D01
+  slug: aarrr-pirate-metrics
+  zh: 海盗指标
+  en: AARRR / Pirate Metrics
+  category: growth
+  kind: framework
+  definition: 用获取、激活、留存、推荐、收入五类视角拆增长
+- id: D02
+  slug: north-star-metric
+  zh: 北极星指标
+  en: North Star Metric
+  category: growth
+  kind: framework
+  definition: 选一个代表用户持续获得核心价值的关键量
+- id: D03
+  slug: funnel-analysis
+  zh: 漏斗分析
+  en: Funnel Analysis
+  category: growth
+  kind: framework
+  definition: 在同一批人与时间窗内看规定步骤的转化损失
+- id: D04
+  slug: cohort-analysis
+  zh: 同期群分析
+  en: Cohort Analysis
+  category: growth
+  kind: framework
+  definition: 按共同起点分群，沿相同用户年龄比长期表现
+- id: D05
+  slug: growth-loops
+  zh: 增长循环
+  en: Growth Loops
+  category: growth
+  kind: framework
+  definition: 把增长写成输入—过程—产出—回流的可重复机制
+- id: D06
+  slug: aida
+  zh: 注意—兴趣—欲望—行动
+  en: AIDA
+  category: growth
+  kind: framework
+  definition: 用注意、兴趣、欲望、行动四段检查沟通是否成链
+- id: D07
+  slug: fogg-behavior-model
+  zh: 福格行为模型
+  en: Fogg Behavior Model
+  category: growth
+  kind: framework
+  definition: 目标行为需动机、能力与提示在同一时刻汇合
+- id: D08
+  slug: hook-model
+  zh: 上瘾模型／习惯循环
+  en: Hook Model
+  category: growth
+  kind: framework
+  definition: 用触发、行动、酬赏、投入设计自然回访机制
+- id: D09
+  slug: com-b
+  zh: 能力—机会—动机行为系统
+  en: COM-B
+  category: growth
+  kind: framework
+  definition: 从能力、机会、动机三系统诊断复杂行为障碍
+- id: D10
+  slug: east
+  zh: 简便—吸引—社会—及时
+  en: EAST
+  category: growth
+  kind: framework
+  definition: 用简便、吸引、社会、及时四原则生成行为干预
+- id: D11
+  slug: rfm
+  zh: 近期—频次—金额分层
+  en: RFM
+  category: growth
+  kind: framework
+  definition: 用近期、频次、金额描述交易行为并分层经营
+- id: D12
+  slug: aaker-brand-equity-model
+  zh: 阿克品牌资产模型
+  en: Aaker Brand Equity Model
+  category: brand
+  kind: framework
+  definition: 从忠诚、知名、感知质量、联想与专有资产盘点品牌
+- id: D13
+  slug: net-promoter-score-nps
+  zh: 净推荐值
+  en: Net Promoter Score，NPS
+  category: brand
+  kind: framework
+  definition: 用推荐倾向分推荐者与贬损者，追踪关系温度
+- id: D14
+  slug: keller-customer-based-brand-equity-cbbe
+  zh: 凯勒顾客品牌资产金字塔
+  en: Keller Customer-Based Brand Equity，CBBE
+  category: brand
+  kind: framework
+  definition: 按识别、意义、反应、关系四层安排品牌建设
+- id: D15
+  slug: peak-end-rule
+  zh: 峰终定律
+  en: Peak-End Rule
+  category: brand
+  kind: framework
+  definition: 回顾评价常受最强时刻与结尾影响，需验证后用
+- id: D16
+  slug: value-based-pricing
+  zh: 价值定价
+  en: Value-Based Pricing
+  category: brand
+  kind: framework
+  definition: 从客户可实现价值与替代选择出发定价格
+- id: D17
+  slug: van-westendorp-price-sensitivity-meter-psm
+  zh: 范韦斯滕多普价格敏感度
+  en: Van Westendorp Price Sensitivity Meter，PSM
+  category: brand
+  kind: framework
+  definition: 用四问探「过低、便宜、偏贵、过高」的价格认知边界
+- id: D18
+  slug: gabor-granger
+  zh: 加博—格兰杰价格研究
+  en: Gabor-Granger
+  category: brand
+  kind: framework
+  definition: 对固定配置逐级问价，形成陈述需求与收入指数
+- id: D19
+  slug: conjoint-analysis
+  zh: 联合分析
+  en: Conjoint Analysis
+  category: brand
+  kind: framework
+  definition: 用整方案选择估计属性水平对偏好的相对贡献
+- id: D20
+  slug: spin-selling
+  zh: 顾问式销售提问
+  en: SPIN Selling
+  category: brand
+  kind: framework
+  definition: 用现状、问题、影响、收益四类提问发展客户需求
+- id: D21
+  slug: meddicc-meddpicc
+  zh: 复杂销售资格评估
+  en: MEDDICC / MEDDPICC
+  category: brand
+  kind: framework
+  definition: 用指标、决策者、标准、流程等证据检查商机资格
+- id: D22
+  slug: servqual
+  zh: 服务质量量表
+  en: SERVQUAL
+  category: brand
+  kind: framework
+  definition: 用期望与感知差距诊断有形、可靠、响应、保证、移情
+- id: E01
+  slug: cost-volume-profit-break-even-analysis
+  zh: 本量利与盈亏平衡
+  en: Cost–Volume–Profit / Break-even Analysis
+  category: operations
+  kind: framework
+  definition: 用销量、价格与成本结构算出何时不亏
+- id: E02
+  slug: unit-economics-ltv-cac
+  zh: 单位经济模型
+  en: Unit Economics：LTV、CAC 与回收期
+  category: operations
+  kind: framework
+  definition: 按客户或订单对照获客成本与后续贡献
+- id: E03
+  slug: cash-conversion-cycle-working-capital
+  zh: 现金转换周期与营运资金
+  en: Cash Conversion Cycle / Working Capital
+  category: operations
+  kind: framework
+  definition: 量清存货与赊销占资、账期抵减后的现金周转天数
+- id: E04
+  slug: npv-irr-dcf
+  zh: 净现值、内部收益率与折现现金流
+  en: NPV / IRR / DCF
+  category: operations
+  kind: framework
+  definition: 把不同时点的现金折到同一时点再比方案
+- id: E05
+  slug: dupont-analysis
+  zh: 杜邦分析
+  en: DuPont Analysis
+  category: operations
+  kind: framework
+  definition: 把净资产收益率拆成利润率、周转与杠杆
+- id: E06
+  slug: activity-based-costing-abc
+  zh: 作业成本法
+  en: Activity-based Costing，ABC
+  category: operations
+  kind: framework
+  definition: 按作业动因把间接费用分到产品或客户
+- id: E07
+  slug: driver-tree-variance-analysis
+  zh: 指标驱动树与经营差异分解
+  en: Driver Tree / Variance Analysis
+  category: operations
+  kind: framework
+  definition: 用可复算关系拆指标，再分解预算与实际差额
+- id: E08
+  slug: theory-of-constraints-toc
+  zh: 约束理论
+  en: Theory of Constraints，TOC
+  category: operations
+  kind: mental-model
+  definition: 先找限制整体产出的瓶颈再集中改善
+- id: E09
+  slug: suppliers-inputs-process-outputs-customers
+  zh: SIPOC 流程边界图
+  en: Suppliers–Inputs–Process–Outputs–Customers
+  category: operations
+  kind: framework
+  definition: 用供应—输入—过程—输出—客户框定流程边界
+- id: E10
+  slug: value-stream-mapping-vsm
+  zh: 价值流图
+  en: Value Stream Mapping，VSM
+  category: operations
+  kind: framework
+  definition: 画出工作与信息如何流动并标出等待浪费
+- id: E11
+  slug: littles-law-queueing
+  zh: Little 定律与排队分析
+  en: Little’s Law / Queueing
+  category: operations
+  kind: framework
+  definition: 用在制量与吞吐估算平均停留时间
+- id: E12
+  slug: plan-do-check-act
+  zh: PDCA 持续改进循环
+  en: Plan–Do–Check–Act
+  category: quality
+  kind: framework
+  definition: 计划—试行—核对—固化，小步闭环改进
+- id: E13
+  slug: define-measure-analyze-improve-control
+  zh: DMAIC 数据驱动改进
+  en: Define–Measure–Analyze–Improve–Control
+  category: quality
+  kind: framework
+  definition: 定义—测量—分析—改进—控制的严谨改进流程
+- id: E14
+  slug: statistical-process-control-spc
+  zh: 统计过程控制与控制图
+  en: Statistical Process Control，SPC
+  category: quality
+  kind: framework
+  definition: 用控制图区分普通波动与异常信号
+- id: E15
+  slug: failure-mode-and-effects-analysis-fmea
+  zh: 失效模式与影响分析
+  en: Failure Mode and Effects Analysis，FMEA
+  category: quality
+  kind: framework
+  definition: 上线前系统梳理会怎么坏、影响谁、如何防
+- id: E16
+  slug: eoq-reorder-point-safety-stock
+  zh: 经济订货量、补货点与安全库存
+  en: EOQ / Reorder Point / Safety Stock
+  category: quality
+  kind: framework
+  definition: 决定每次买多少、何时补货、备多少缓冲
+- id: E17
+  slug: abc-inventory-analysis
+  zh: ABC 库存分类
+  en: ABC Inventory Analysis
+  category: quality
+  kind: framework
+  definition: 按经济重要性给 SKU 分层管理精力
+- id: E18
+  slug: time-series-forecasting
+  zh: 时间序列预测
+  en: Time-series Forecasting
+  category: quality
+  kind: framework
+  definition: 从历史时间规律外推未来并给出区间
+- id: E19
+  slug: a-b-testing-randomized-controlled-experiment
+  zh: A/B 随机对照测试
+  en: A/B Testing / Randomized Controlled Experiment
+  category: quality
+  kind: framework
+  definition: 随机分组比较处理与对照的平均因果效应
+- id: E20
+  slug: causal-dag-confounding-control
+  zh: 因果图与混杂控制
+  en: Causal DAG / Confounding Control
+  category: quality
+  kind: framework
+  definition: 用有向无环图理清混杂并选择调整变量
+- id: E21
+  slug: regression-analysis
+  zh: 回归分析
+  en: Regression Analysis
+  category: quality
+  kind: framework
+  definition: 用模型描述解释变量与结果的条件关系
+- id: E22
+  slug: monte-carlo-simulation
+  zh: 蒙特卡洛模拟
+  en: Monte Carlo Simulation
+  category: quality
+  kind: framework
+  definition: 对不确定输入反复抽样，得到结果分布
+- id: F01
+  slug: smart-objectives
+  zh: SMART 目标检验
+  en: SMART Objectives
+  category: execution
+  kind: framework
+  definition: 用具体可验的五项约束把模糊愿望写成可验收目标
+- id: F02
+  slug: objectives-and-key-results-okr
+  zh: 目标与关键结果
+  en: Objectives and Key Results，OKR
+  category: execution
+  kind: framework
+  definition: 用少数有意义目标加可验证关键结果对齐行动
+- id: F03
+  slug: balanced-scorecard-bsc
+  zh: 平衡计分卡
+  en: Balanced Scorecard，BSC
+  category: execution
+  kind: framework
+  definition: 用财务客户流程能力多视角连接战略与日常指标
+- id: F04
+  slug: work-breakdown-structure-wbs
+  zh: 工作分解结构
+  en: Work Breakdown Structure，WBS
+  category: execution
+  kind: framework
+  definition: 按交付成果把项目逐层拆成可估算可验收的工作包
+- id: F05
+  slug: critical-path-method-cpm-pert
+  zh: 关键路径与三点估算
+  en: Critical Path Method，CPM；PERT
+  category: execution
+  kind: framework
+  definition: 用依赖网络找决定工期的最长路径，并用三点估时长不确定性
+- id: F06
+  slug: kanban-and-wip-limits
+  zh: 看板与在制品限制
+  en: Kanban and WIP Limits
+  category: execution
+  kind: framework
+  definition: 显式工作流并限制同时进行的工作以改善流动
+- id: F07
+  slug: scrum
+  zh: Scrum 敏捷协作框架
+  en: Scrum
+  category: execution
+  kind: framework
+  definition: 用短周期增量、固定事件与角色实现透明检视适应
+- id: F08
+  slug: responsible-accountable-consulted-informed-raci
+  zh: 责任分配矩阵
+  en: Responsible, Accountable, Consulted, Informed，RACI
+  category: execution
+  kind: framework
+  definition: 按任务区分执行、最终负责、征询与知会四类义务
+- id: F09
+  slug: rapid-decision-making
+  zh: RAPID 决策权分配
+  en: RAPID Decision Making
+  category: execution
+  kind: framework
+  definition: 把建议、同意、执行、输入与拍板权拆开落到具体人
+- id: F10
+  slug: power-interest-grid
+  zh: 干系人权力—关注度矩阵
+  en: Power–Interest Grid
+  category: execution
+  kind: framework
+  definition: 按权力与关注度把相关方分组以匹配沟通投入
+- id: F11
+  slug: likelihood-impact-risk-matrix
+  zh: 概率—影响风险矩阵
+  en: Likelihood–Impact Risk Matrix
+  category: execution
+  kind: framework
+  definition: 用发生可能与后果严重度粗分风险以排应对优先级
+- id: F12
+  slug: mckinsey-7-s-framework
+  zh: 麦肯锡 7S 组织诊断
+  en: McKinsey 7-S Framework
+  category: org-learning
+  kind: framework
+  definition: 从战略结构系统价值观技能人员风格七要素查组织错位
+- id: F13
+  slug: galbraith-star-model
+  zh: 加尔布雷思星型组织模型
+  en: Galbraith Star Model
+  category: org-learning
+  kind: framework
+  definition: 用战略结构流程奖励人员五政策成套设计组织
+- id: F14
+  slug: tuckmans-stages-of-team-development
+  zh: 塔克曼团队发展模型
+  en: Tuckman’s Stages of Team Development
+  category: org-learning
+  kind: framework
+  definition: 用形成震荡规范表现等状态语言讨论团队协作阶段
+- id: F15
+  slug: nine-box-talent-grid-and-skills-matrix
+  zh: 人才九宫格与能力矩阵
+  en: Nine-Box Talent Grid and Skills Matrix
+  category: org-learning
+  kind: framework
+  definition: 用绩效潜力九宫格与技能覆盖表支撑盘点与培养
+- id: F16
+  slug: kotters-eight-steps-for-leading-change
+  zh: 科特八步变革
+  en: Kotter’s Eight Steps for Leading Change
+  category: org-learning
+  kind: framework
+  definition: 用紧迫感联盟愿景动员试点成果与制度嵌入推动变革
+- id: F17
+  slug: awareness-desire-knowledge-ability-reinforcement
+  zh: ADKAR 个人变革模型
+  en: Awareness, Desire, Knowledge, Ability, Reinforcement
+  category: org-learning
+  kind: framework
+  definition: 按认知意愿知识能力强化定位个人采纳卡点
+- id: F18
+  slug: lewins-unfreeze-change-refreeze-model
+  zh: 勒温变革三阶段
+  en: Lewin’s Unfreeze–Change–Refreeze Model
+  category: org-learning
+  kind: framework
+  definition: 用解冻改变再冻结检查习惯变革前后支持条件
+- id: F19
+  slug: after-action-review-aar
+  zh: 行动后复盘
+  en: After Action Review，AAR
+  category: org-learning
+  kind: framework
+  definition: 对照预期与实际提炼可验证改进行动的事后学习
+- id: F20
+  slug: double-loop-learning
+  zh: 双环学习
+  en: Double-Loop Learning
+  category: org-learning
+  kind: framework
+  definition: 在改行动之外进一步检验目标规则与默认假设
+- id: F21
+  slug: scqa-and-the-minto-pyramid-principle
+  zh: SCQA 与金字塔表达
+  en: SCQA and the Minto Pyramid Principle
+  category: org-learning
+  kind: framework
+  definition: 用背景冲突问题答案开场，再金字塔分组支撑中心结论
+- id: F22
+  slug: batna-and-zopa
+  zh: 谈判替代方案与可协议区间
+  en: BATNA and ZOPA
+  category: org-learning
+  kind: framework
+  definition: 用最佳替代方案与双方可接受重叠区间准备谈判
+- id: G01
+  slug: six-thinking-hats
+  zh: 六顶思考帽
+  en: Six Thinking Hats
+  category: innovation
+  kind: framework
+  definition: 同一时段全员用同一视角讨论，再切换视角
+- id: G02
+  slug: scamper
+  zh: SCAMPER 创意检查表
+  en: SCAMPER
+  category: innovation
+  kind: framework
+  definition: 用七种变换提问，系统挤出不同方向的候选
+- id: G03
+  slug: theory-of-inventive-problem-solving
+  zh: TRIZ 发明问题解决理论
+  en: Theory of Inventive Problem Solving
+  category: innovation
+  kind: framework
+  definition: 把冲突抽象成矛盾，再找跨领域解决原理
+- id: G04
+  slug: general-morphological-analysis
+  zh: 形态分析
+  en: General Morphological Analysis
+  category: innovation
+  kind: framework
+  definition: 拆维度与状态，检查组合相容后挑代表概念
+- id: G05
+  slug: analogical-reasoning-structure-mapping
+  zh: 类比推理与结构映射
+  en: Analogical Reasoning / Structure Mapping
+  category: innovation
+  kind: framework
+  definition: 映射关系结构，而不是表面相像
+- id: G06
+  slug: wardley-mapping
+  zh: Wardley 地图
+  en: Wardley Mapping
+  category: innovation
+  kind: framework
+  definition: 按用户需求画价值链，标能力演进位置再定自研或采购
+- id: G07
+  slug: impact-mapping
+  zh: 影响地图
+  en: Impact Mapping
+  category: tradeoffs
+  kind: framework
+  definition: 用目标—角色—行为变化—交付物四层连起范围
+- id: G08
+  slug: weighted-shortest-job-first
+  zh: WSJF 与延迟成本
+  en: Weighted Shortest Job First
+  category: tradeoffs
+  kind: framework
+  definition: 用延迟成本相对工期，给稀缺产能排先后
+- id: G09
+  slug: value-of-information
+  zh: 信息价值分析
+  en: Value of Information
+  category: tradeoffs
+  kind: framework
+  definition: 信息有价值，当且仅当它能改变决策并改善结果
+- id: G10
+  slug: real-options
+  zh: 实物期权思维
+  en: Real Options
+  category: tradeoffs
+  kind: framework
+  definition: 把分阶段投入当成可执行的扩大、等待或退出权利
+- id: G11
+  slug: reference-class-forecasting
+  zh: 参考类预测
+  en: Reference Class Forecasting
+  category: tradeoffs
+  kind: framework
+  definition: 先看可比项目真实结果分布，再估本次落点
+- id: G12
+  slug: theory-of-change-logic-model
+  zh: 变革理论与逻辑模型
+  en: Theory of Change / Logic Model
+  category: tradeoffs
+  kind: framework
+  definition: 把投入到长期影响的因果链与假设写清楚再验收
+- id: H01
+  slug: reversible-decisions
+  zh: 可逆与不可逆决策
+  en: Reversible and Irreversible Decisions
+  category: mental-models
+  kind: mental-model
+  definition: 先分清能不能回头，再决定快慢与严谨度
+- id: H02
+  slug: regret-minimization
+  zh: 后悔最小化
+  en: Regret Minimization
+  category: mental-models
+  kind: mental-model
+  definition: 用长期回望选更少悔恨的路径
+- id: H03
+  slug: leverage-points
+  zh: 杠杆点
+  en: Leverage Points
+  category: mental-models
+  kind: mental-model
+  definition: 找小改动能撬动系统大变化的位置
+- id: H04
+  slug: compounding
+  zh: 复利
+  en: Compounding
+  category: mental-models
+  kind: mental-model
+  definition: 小改进持续叠加，后期收益非线性放大
+- id: H05
+  slug: emergence
+  zh: 涌现
+  en: Emergence
+  category: mental-models
+  kind: mental-model
+  definition: 整体行为无法仅由拆开零件相加解释
+- id: H06
+  slug: moat
+  zh: 护城河
+  en: Moat
+  category: mental-models
+  kind: mental-model
+  definition: 判断优势能挡住竞争多久、靠什么维持
+- id: H07
+  slug: base-rate
+  zh: 基础比率
+  en: Base Rate
+  category: mental-models
+  kind: mental-model
+  definition: 先看同类事件本来有多常见，再看个案线索
+- id: H08
+  slug: margin-of-safety
+  zh: 安全边际
+  en: Margin of Safety
+  category: mental-models
+  kind: mental-model
+  definition: 估计不准时主动留余量，避免贴边运行
+- id: H09
+  slug: map-is-not-territory
+  zh: 地图不是疆域
+  en: The Map Is Not the Territory
+  category: mental-models
+  kind: mental-model
+  definition: 模型只是简化图，别把它当成现实本身
+- id: H10
+  slug: confirmation-bias
+  zh: 确认偏误
+  en: Confirmation Bias
+  category: mental-models
+  kind: mental-model
+  definition: 人会偏爱印证已有看法的证据，须主动找反例
+- id: H11
+  slug: circle-of-competence
+  zh: 能力圈
+  en: Circle of Competence
+  category: mental-models
+  kind: mental-model
+  definition: 先认清自己懂什么，再决定能不能下结论
+- id: H12
+  slug: occams-razor
+  zh: 奥卡姆剃刀
+  en: Occam's Razor
+  category: mental-models
+  kind: mental-model
+  definition: 同样能解释时，优先更少额外假设的说法

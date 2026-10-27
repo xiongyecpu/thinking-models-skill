@@ -1,0 +1,428 @@
+scenes:
+- scene: 接到一句模糊任务，不知道到底解决什么
+  primary:
+  - A01
+  aux:
+  - A03
+  - A04
+  output: 问题定义、边界与取证计划
+- scene: 问题很多，不知道怎样拆才不遗漏
+  primary:
+  - A03
+  aux:
+  - A02
+  - A11
+  output: 问题树与重点分支
+- scene: 故障或投诉反复出现，根因不清
+  primary:
+  - A10
+  aux:
+  - A09
+  - A04
+  output: 候选原因、证据与排查顺序
+- scene: 局部改善却让整体变差，问题彼此牵连
+  primary:
+  - A06
+  aux:
+  - A07
+  - A08
+  output: 反馈关系、系统边界与干预假设
+- scene: 几个方案各有优缺点，无法取舍
+  primary:
+  - A12
+  aux:
+  - A19
+  - A15
+  output: 可追溯的方案比较与敏感性分析
+- scene: 结果不确定，需要边学边决定
+  primary:
+  - A13
+  aux:
+  - A14
+  - G09
+  output: 决策路径、概率假设与信息需求
+- scene: 担心未来变化使当前计划失效
+  primary:
+  - A16
+  aux:
+  - A21
+  - A20
+  output: 情景、预警信号与调整动作
+- scene: 重大项目看起来太顺，担心集体乐观
+  primary:
+  - A17
+  aux:
+  - A18
+  - G11
+  output: 失败条件、预防动作与外部基准
+- scene: 对手或其他部门会回应我们的动作
+  primary:
+  - A22
+  aux:
+  - A21
+  - F22
+  output: 各方激励、可能回应与合作条件
+- scene: 行业变化很多，不知道哪些真正相关
+  primary:
+  - B01
+  aux:
+  - B02
+  - A16
+  output: 外部影响路径与竞争压力
+- scene: 公司应该在哪竞争，凭什么赢
+  primary:
+  - B11
+  aux:
+  - B04
+  - B05
+  output: 战略选择与所需能力
+- scene: 多个业务争资源，应该投谁
+  primary:
+  - B07
+  aux:
+  - B06
+  - B09
+  output: 业务组合与分阶段投入
+- scene: 现有业务增长见顶，寻找扩展方向
+  primary:
+  - B08
+  aux:
+  - B10
+  - B03
+  output: 增长路径、差异化和行动假设
+- scene: 目标用户太泛，定位与渠道都不清楚
+  primary:
+  - B16
+  aux:
+  - B17
+  - B14
+  output: 细分、目标市场与价值定位
+- scene: 有产品想法，却说不清如何形成生意
+  primary:
+  - B13
+  aux:
+  - B12
+  - E02
+  output: 商业假设、关键成本与验证优先级
+- scene: 想估算市场空间和第一年可争取规模
+  primary:
+  - B15
+  aux:
+  - B16
+  - A15
+  output: 可复算的规模区间及来源
+- scene: 技术被讨论很多，但市场采用不明朗
+  primary:
+  - B20
+  aux:
+  - B19
+  - B18
+  output: 采用群体、阶段判断与市场行动
+- scene: 想做平台或生态，不确定参与者为何加入
+  primary:
+  - B22
+  aux:
+  - B21
+  - B12
+  output: 角色依赖、交换价值与网络效应假设
+- scene: 用户为什么买、换用或放弃产品
+  primary:
+  - C01
+  aux:
+  - C07
+  - C06
+  output: 具体任务、替代方案与选择阻力
+- scene: 团队凭印象谈用户，缺少共同认识
+  primary:
+  - C03
+  aux:
+  - C02
+  - C06
+  output: 有材料支撑的人群差异与证据缺口
+- scene: 开箱、连接、使用、售后体验断裂
+  primary:
+  - C04
+  aux:
+  - C05
+  - C20
+  output: 目标、障碍、前后台断点与改进机会
+- scene: 访谈材料很多，不知道怎么变成机会
+  primary:
+  - C08
+  aux:
+  - C09
+  - C10
+  output: 主题、机会结构与下一步探索
+- scene: 需求很多，哪些基础能力必须做好
+  primary:
+  - C12
+  aux:
+  - C13
+  - C16
+  output: 需求性质、质量要求与范围边界
+- scene: 同一目标下要比较多个产品改善
+  primary:
+  - C14
+  aux:
+  - C19
+  - G08
+  output: 优先级依据、关键假设与顺序
+- scene: 想尽快验证新产品，不知道先做多小
+  primary:
+  - C19
+  aux:
+  - C18
+  - C15
+  output: 高风险假设、最小试验和判定条件
+- scene: 界面看起来没问题，用户仍不会用
+  primary:
+  - C20
+  aux:
+  - C21
+  - C22
+  output: 任务失败证据、改进与体验指标
+- scene: 增长目标很多，团队找不到共同重点
+  primary:
+  - D02
+  aux:
+  - D01
+  - E07
+  output: 核心价值指标、驱动与护栏
+- scene: 新增用户很多，激活和留存却不好
+  primary:
+  - D03
+  aux:
+  - D04
+  - C07
+  output: 关键流失环节与细分原因假设
+- scene: 增长依赖持续买流量，缺少循环
+  primary:
+  - D05
+  aux:
+  - D11
+  - E02
+  output: 循环机制、人群优先级与经济边界
+- scene: 用户有意愿但迟迟不行动
+  primary:
+  - D07
+  aux:
+  - D09
+  - D10
+  output: 能力、动机、机会与行为设计假设
+- scene: 希望用户在价值成立后形成重复使用
+  primary:
+  - D08
+  aux:
+  - D04
+  - D07
+  output: 触发与重复使用机制及验证计划
+- scene: 想升级品牌，不知道要改变什么认知
+  primary:
+  - D14
+  aux:
+  - D12
+  - B16
+  output: 品牌诊断、目标人群与认知任务
+- scene: 口碑与服务评价不好，不知道改哪里
+  primary:
+  - D22
+  aux:
+  - D13
+  - C04
+  output: 服务差距、推荐反馈与体验改进
+- scene: 新产品价格带和付费意愿不清楚
+  primary:
+  - D16
+  aux:
+  - D17
+  - D18
+  output: 价值逻辑、价格候选与购买验证
+- scene: 想知道用户愿为哪些属性组合买单
+  primary:
+  - D19
+  aux:
+  - B16
+  - E02
+  output: 属性取舍、偏好估计与收益约束
+- scene: 企业客户迟迟不成交，商机判断模糊
+  primary:
+  - D21
+  aux:
+  - D20
+  - F22
+  output: 决策链、采购过程与下一步动作
+- scene: 传播内容没有推动行动，体验缺少记忆点
+  primary:
+  - D06
+  aux:
+  - D15
+  - C04
+  output: 传播任务、关键体验与反馈指标
+- scene: 销量增长却没赚到钱，投放也不确定划不划算
+  primary:
+  - E02
+  aux:
+  - E01
+  - E07
+  output: 单位贡献、盈亏平衡与经营差异
+- scene: 账面盈利但现金紧张
+  primary:
+  - E03
+  aux:
+  - E02
+  - E06
+  output: 库存、账期、资金占用与行动
+- scene: 采购、研发或外包投入是否值得
+  primary:
+  - E04
+  aux:
+  - A15
+  - G10
+  output: 增量现金流、估值范围与分阶段方案
+- scene: 流程慢但每个部门都说自己没问题
+  primary:
+  - E10
+  aux:
+  - E09
+  - E08
+  output: 流程边界、等待浪费与瓶颈
+- scene: 利润率与资本回报发生变化
+  primary:
+  - E05
+  aux:
+  - E06
+  - E07
+  output: 回报分解、成本动因与改进假设
+- scene: 质量波动反复，需要持续改进
+  primary:
+  - E13
+  aux:
+  - E14
+  - E12
+  output: 稳定性分析、改善方案与控制计划
+- scene: 产品或流程上线前要排查失败风险
+  primary:
+  - E15
+  aux:
+  - A17
+  - F11
+  output: 失败方式、优先处理项与措施
+- scene: 库存积压与缺货同时发生
+  primary:
+  - E16
+  aux:
+  - E17
+  - E18
+  output: 库存分类、需求预测与补货规则
+- scene: 数据看起来有关联，但不知道措施是否有效
+  primary:
+  - E20
+  aux:
+  - E19
+  - E21
+  output: 因果假设、研究设计与效果区间
+- scene: 年度方向落不到团队结果上
+  primary:
+  - F02
+  aux:
+  - F01
+  - F03
+  output: 目标、关键结果与指标关系
+- scene: 项目范围和交付依赖不清晰
+  primary:
+  - F04
+  aux:
+  - C17
+  - F05
+  output: 交付范围、切片与关键路径
+- scene: 任务越开越多，交付周期越来越长
+  primary:
+  - F06
+  aux:
+  - E11
+  - F07
+  output: 在制上限、流动改进与检查节奏
+- scene: 责任混乱，重要决定没人拍板
+  primary:
+  - F09
+  aux:
+  - F08
+  - F10
+  output: 决策权、执行责任与协作安排
+- scene: 换组织架构后协作仍然不顺
+  primary:
+  - F13
+  aux:
+  - F12
+  - F14
+  output: 结构、流程、激励与团队状态诊断
+- scene: 培养和晋升讨论缺少共同依据
+  primary:
+  - F15
+  aux:
+  - F19
+  - F01
+  output: 能力证据、岗位要求与发展计划
+- scene: 新制度或 AI 工作方式推不下去
+  primary:
+  - F17
+  aux:
+  - F16
+  - F18
+  output: 采用障碍、变革行动与巩固机制
+- scene: 复盘很多次，同样的问题仍发生
+  primary:
+  - F20
+  aux:
+  - F19
+  - A07
+  output: 需要改变的假设、规则与行动
+- scene: 汇报很长，听众抓不到结论
+  primary:
+  - F21
+  aux:
+  - A03
+  - A04
+  output: 结论、关键问题与支撑证据
+- scene: 讨论互相打断，缺少新方案
+  primary:
+  - G01
+  aux:
+  - G02
+  - G05
+  output: 多视角判断、可测试的创意
+- scene: 技术要求相互冲突，折中难以满足目标
+  primary:
+  - G03
+  aux:
+  - G04
+  - C13
+  output: 矛盾、候选结构与工程验证
+- scene: 不清楚哪些能力该自研、采购或合作
+  primary:
+  - G06
+  aux:
+  - B04
+  - B05
+  output: 依赖地图与能力投入选择
+- scene: 需求与业务结果之间缺少解释链
+  primary:
+  - G07
+  aux:
+  - G12
+  - C09
+  output: 目标、行为、交付物与因果假设
+- scene: 不知道该继续研究还是立即决定
+  primary:
+  - G09
+  aux:
+  - A13
+  - A14
+  output: 信息价值、研究预算与停止条件
+- scene: 大型投入风险高，想保留转向与退出空间
+  primary:
+  - G10
+  aux:
+  - G11
+  - E22
+  output: 分阶段承诺、预测分布与触发条件
