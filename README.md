@@ -1,8 +1,33 @@
 # 用思维模型拆问题
 
-给 **各类 AI agent** 用的通用 Skill：用户描述一个工作或业务问题后，按配方澄清问题 → **固定选出 3 个**合适的思维模型 → **严格按每个模型细文里的步骤**逐步分析 → 用表格等结构化版式把结果摊开。
+给 **各类 AI agent** 用的通用 Skill：把含糊的工作/业务问题，拆成可核对、可拍板的分析。
 
-不绑死某一家产品。只要 agent 能加载「目录里的 `SKILL.md` + 同目录 yaml」，就可以用；细文（机制、步骤、例子、踩坑）在公开站 [51as.com/toolbox](https://51as.com/toolbox)（一条一页），本仓库只放配方与轻量索引。
+## 这个 Skill 解决什么
+
+和 agent「随便聊两句给建议」不同，本 Skill 强制走固定流程，避免空泛视角：
+
+1. **先澄清**：决定是什么、约束是什么、证据缺口在哪  
+2. **固定选 3 个模型**：从 156 条库 + 61 个场景表里选型，不编库外名字  
+3. **按细文步骤填问题**：不是贴定义，而是逐步作答  
+4. **结果表格化**：矩阵、对照、漏斗等扫表就能下结论  
+
+适合：产品/运营/战略里「方案怎么比」「问题怎么拆」「要不要做」「先做哪件」这类需要结构、又怕 agent 空话的场景。细文托管在 [51as.com/toolbox](https://51as.com/toolbox)；本仓库只放配方与轻量索引，不绑死某一家产品。
+
+## 怎么用
+
+**装到 agent 上**
+
+1. 把 `SKILL.md`、`models-index.yaml`、`scene-lookup.yaml` 放进**同一目录**（该平台的 skills / workflows / prompts 目录）。  
+2. 按平台规则启用（Cursor、Claude Code、Codex、DeepSeek Harness 等凡能加载 Skill 目录的都行）。  
+3. 本仓库是 **Skill 配方包**，不是 npm 包；`npm install` 不会自动变成可调用 skill。
+
+**对 agent 说什么**
+
+- 「用思维模型拆一下：……」  
+- 「帮我选型思维模型分析：……」  
+- 或直接描述业务问题，让 agent 按本 Skill 的 description 自动匹配  
+
+Agent 应输出：澄清后的问题 → 3 个模型及理由 → 每个模型按 steps 逐步分析（含表格）→ 综合与下一步。分析时打开 `https://51as.com/toolbox/<slug>` 读细文步骤。
 
 ## 规模一览
 
@@ -279,13 +304,10 @@
 | `scene-lookup.yaml` | 61 个工作场景 → 主/辅模型 |
 | `LICENSE` | MIT |
 
-## 怎么接到各种 agent
+## 接入说明
 
-1. 把 `SKILL.md`、`models-index.yaml`、`scene-lookup.yaml` 放进**同一 skill 目录**（或你们平台要求的 skills / workflows / prompts 目录）。
-2. 按该平台的方式启用 skill（例如 Cursor / Claude Code / Codex / 自建 harness 的 skill 加载规则）。
-3. 用户描述问题时触发本 skill；分析时打开 `https://51as.com/toolbox/<slug>` 读细文里的 `steps`，再逐步填入问题。
+见文首「怎么用」。
 
-本仓库是 **Skill 配方包**，不是 npm 运行时包；`npm install` 不会自动变成某产品里的可调用 skill。
 
 ## 硬规矩（摘要）
 
